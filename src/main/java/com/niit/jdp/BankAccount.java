@@ -5,7 +5,16 @@
  */
 package com.niit.jdp;
 
-public class BankAccount {
+public abstract class BankAccount {
+    String accontHolderName;
+    long accountNumber;
+    String ifscCode;
+    String branchName;
+    double accountBalance;
+    double widthDrawAmount;
+    double depositeAmount;
+    double transferFunds;
+    String modeOfOperation;
+    boolean internetBanking;
+    double interestRate;
 
-
-}
